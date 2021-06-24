@@ -13,17 +13,3 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 export const authService = firebase.auth();
-
-
-/*import firebase from 'firebase/app';
-
-var firebaseConfig = {
-    apiKey: "AIzaSyCfThHymFzxH_H5-ITx79UW34_fJv_bG_k",
-    authDomain: "nwitter-5bc2e.firebaseapp.com",
-    projectId: "nwitter-5bc2e",
-    storageBucket: "nwitter-5bc2e.appspot.com",
-    messagingSenderId: "209407197554",
-    appId: "1:209407197554:web:db5338404c6a6eaf1f9deb"
-  };
-
-export default firebase.initializeApp(firebaseConfig);*/
